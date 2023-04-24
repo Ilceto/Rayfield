@@ -91,7 +91,7 @@ local function CreateWindow()
 		LoadingSubtitle = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
 		ConfigurationSaving = {
 			Enabled = true,
-			FolderName = "InfernoXConfig",
+			FolderName = "InfernoXConfig", --asd
 			FileName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 		},
 		Discord = {
