@@ -1,3 +1,5 @@
+--RAYFIELD LIBRARY TEST
+
 --[[
 
 Rayfield Interface Suite
@@ -10,8 +12,8 @@ iRay  | Programming
 
 
 
-local Release = "Beta 8"
-local NotificationDuration = 6.5
+local Release = "313 Ilceto"
+local NotificationDuration = 6
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
@@ -22,7 +24,7 @@ local RayfieldLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
-			TextFont = "Default", -- Default will use the various font faces used across Rayfield
+			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(25, 25, 25),
@@ -2478,4 +2480,4 @@ end
 
 task.delay(3.5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 
-return RayfieldLibrary
+ return RayfieldLibrary
